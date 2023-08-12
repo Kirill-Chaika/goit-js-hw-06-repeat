@@ -8,7 +8,7 @@ childElems.forEach(function (elemChild ,index ){
 
     console.log(`
     Category: ${elemChild.firstElementChild.textContent}
-    Elements: ${elemChild.lastElementChild.length}
+    Elements: ${elemChild.lastElementChild.childElementCount}
     `)
 
 })
