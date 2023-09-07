@@ -17,13 +17,7 @@ const images = [
 const infoMassPosition = document.querySelector('.gallery') 
 
 
-const galeryImgAdd = images => {
-  return images.map((img)=> {
-    const markup = img.map((imgs)=>{`<li><img src="${imgs.url}" alt="${imgs.alt}"></li>`})})
-    document.insertAdjacentHTML("afterend", markup);
-}
 
-galeryImgAdd()
  
 
 
